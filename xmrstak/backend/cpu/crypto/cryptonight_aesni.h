@@ -1156,14 +1156,14 @@ void cryptonight_ten_hash(const void* input, size_t len, void* output, cryptonig
 
 	__m128i ax5 = _mm_set_epi64x(h5[1] ^ h5[5], h5[0] ^ h5[4]);
 	__m128i bx5 = _mm_set_epi64x(h5[3] ^ h5[7], h5[2] ^ h5[6]);
-	__m128i ax5 = _mm_set_epi64x(h6[1] ^ h6[5], h6[0] ^ h6[4]);
-	__m128i bx5 = _mm_set_epi64x(h6[3] ^ h6[7], h6[2] ^ h6[6]);
-	__m128i ax5 = _mm_set_epi64x(h7[1] ^ h7[5], h7[0] ^ h7[4]);
-	__m128i bx5 = _mm_set_epi64x(h7[3] ^ h7[7], h7[2] ^ h7[6]);
-	__m128i ax5 = _mm_set_epi64x(h8[1] ^ h8[5], h8[0] ^ h8[4]);
-	__m128i bx5 = _mm_set_epi64x(h8[3] ^ h8[7], h8[2] ^ h8[6]);
-	__m128i ax5 = _mm_set_epi64x(h9[1] ^ h9[5], h9[0] ^ h9[4]);
-	__m128i bx5 = _mm_set_epi64x(h9[3] ^ h9[7], h9[2] ^ h9[6]);
+	__m128i ax6 = _mm_set_epi64x(h6[1] ^ h6[5], h6[0] ^ h6[4]);
+	__m128i bx6 = _mm_set_epi64x(h6[3] ^ h6[7], h6[2] ^ h6[6]);
+	__m128i ax7 = _mm_set_epi64x(h7[1] ^ h7[5], h7[0] ^ h7[4]);
+	__m128i bx7 = _mm_set_epi64x(h7[3] ^ h7[7], h7[2] ^ h7[6]);
+	__m128i ax8 = _mm_set_epi64x(h8[1] ^ h8[5], h8[0] ^ h8[4]);
+	__m128i bx8 = _mm_set_epi64x(h8[3] ^ h8[7], h8[2] ^ h8[6]);
+	__m128i ax9 = _mm_set_epi64x(h9[1] ^ h9[5], h9[0] ^ h9[4]);
+	__m128i bx9 = _mm_set_epi64x(h9[3] ^ h9[7], h9[2] ^ h9[6]);
 
 
 
