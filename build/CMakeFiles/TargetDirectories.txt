@@ -1,0 +1,3 @@
+/home/jiangzhongbo/xmr-dev-v7/build/CMakeFiles/xmr-stak.dir
+/home/jiangzhongbo/xmr-dev-v7/build/CMakeFiles/xmr-stak-c.dir
+/home/jiangzhongbo/xmr-dev-v7/build/CMakeFiles/xmr-stak-backend.dir
