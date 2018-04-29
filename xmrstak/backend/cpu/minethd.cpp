@@ -119,6 +119,9 @@ minethd::minethd(miner_work& pWork, size_t iNo, int iMultiway, bool no_prefetch,
 
 	switch (iMultiway)
 	{
+	case 10:
+		oWorkThd = std::thread(&minethd::ten_work_main, this);
+		break;
 	case 5:
 		oWorkThd = std::thread(&minethd::penta_work_main, this);
 		break;
