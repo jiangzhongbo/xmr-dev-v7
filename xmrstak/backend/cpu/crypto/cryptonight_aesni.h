@@ -1089,7 +1089,7 @@ void cryptonight_penta_hash(const void* input, size_t len, void* output, crypton
 	}
 }
 
-// This most lovely creation will do 5 cn hashes at a time.
+// This most lovely creation will do 10 cn hashes at a time.
 template<xmrstak_algo ALGO, bool SOFT_AES, bool PREFETCH>
 void cryptonight_ten_hash(const void* input, size_t len, void* output, cryptonight_ctx** ctx)
 {
